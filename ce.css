@@ -1,0 +1,31 @@
+*{
+  padding: 10px;
+  margin: 0px;
+  color: whitesmoke;
+  
+}
+body{
+  width: 400px;
+  height: 300px;
+}
+.pre{
+  margin: 10px 1px;
+  padding: 3px;
+  background-color: #123;
+  border: 3px solid #060;
+  
+}
+input{
+  border: 1px solid #10f;
+  border-radius: 10px;
+  margin: 5px 0px;
+  color: #192;
+  font-size: 12px;
+  text-align: left;
+}
+button{
+  width: 4rem;
+  height: 4rem;
+  color: blue;
+  margin: 5px 0px;
+}
