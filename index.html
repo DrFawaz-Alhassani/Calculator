@@ -1,48 +1,141 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="ce.css">
-  <title>ES8 Project</title>
 
+<html dir="rtl" lang="ar">
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>كورساتي</title>
+ <head<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=sell" />
+ 
+  <link rel="ico" href="/img/ico/na.png">
   
 </head>
-
-<body>
-  <div class="pre">
-  <h1>Mashing Calculator program</h1>
-    
-<button class="op-button" data-op="+">+</button>
-<button class="op-button" data-op="-">-</button>
-<button class="op-button" data-op="*">*</button>
-<button class="op-button" data-op="/">/</button> <br>
-    <button onclick="fname1()" id="x5" >=</button>
-    
-  </div>
-  
-
-    
-  </div>
-  <div class="pre">
-      <input id="num1" type="number" placeholder="0"> 
-  
-   <input readonly id="num0" type="text" placeholder="العملية الحسابية "> 
-   
-  <input  id="num2" type="number" placeholder="0">
-  
-  <input readonly id="num3" type="text" placeholder="0">
- <input  id="num4" type="number" readonly placeholder="النتيجة">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200..1000&display=swap" rel="stylesheet">
+ <script src="./scripts/java.js"></script>
  
- <p>
-   Development: Dr : Fawaz-Alhassani 
- </p>
-  </div>
-
+</head>
+<body>
+  <section class="mine">
+    <nav class="navbar">
+      <h1>كورساتي  <span>بالعربي</span></h1>
+      <ul>
+        <li>
+          <a id="a1" href="./login.html">إنشاء حساب</a>
+        </li>
+        <li>
+          <a id="a1" href="./login.html">تسجيل الدخول</a>
+        </li>
+        <li>
+          <a id="a1" href="./index.html">الرئيسية           
+          </a>
+        </li>
+        <li>
+          <a onclick="shownave()"  id="a1" href="#ab1">حول</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="info">
+      <h1>موقع كورساتي بالعربي</h1>
+      <h3>لماذا يجب عليك اختيار موقعنا</h3>
+      <p>موقعنا كورسات بالعربي هو، موقع متخصص في تقديم خدماتما بشكل
+        <span class="sp1">افضل</span>
+        
+          <span class="sp2">اشمل</span>
+          <span class="sp3">واحترافي </span>
+        مع دعم شامل وتحديث مستمر
+      </p>
+      <div class="bak">
+      <img class="bak1" src="./img/m1.jpeg">
+    </div>
+      <h2 id="ab1">
+        اشهر الكورسات المضافة 
+      </h2>
+     <div class="btn11">
+      <div class="btn1">
+      <p>
+        <img class="img1" src="./img/m3.png">
+        <a href="#" class="btn">كورسات ويب</a>
+      </p>
+      </div>
+      <div class="btn1">
+      <p>
+        <img class="img1" src="./img/m4.png">
+        <a href="#" class="btn">كورسات، اوفيس</a>
+      </p>
+    </div>
+      <div class="btn1">
+      <p>
+        <img class="img1" src="./img/m5.png">
+        <a href="#" class="btn">كورسات تصميم</a>
+      </p>
+    </div>
+      <div class="btn1">
+      <p>
+        <img class="img1" src="./img/m6.png">
+        <a  href="#"class="btn">كورسات لغات</a>
+      </p>
+      </div>
+       <div class="btn1">
+      <p>
+        <img class="img1" src="./img/m3.png">
+        <a href="#" class="btn">كورسات آمن سيبراني</a>
+      </p>
+      </div>
+      <div class="btn1">
+      <p>
+        <img class="img1" src="./img/m4.png">
+        <a href="#" class="btn">كورسات تحليل بيانات</a>
+      </p>
+    </div>
+      <div class="btn1">
+      <p>
+        <img class="img1" src="./img/m5.png">
+        <a href="#" class="btn">كورسات IT</a>
+      </p>
+    </div>
+      <div class="btn1">
+      <p>
+        <img class="img1" src="./img/m6.png">
+        <a  href="#"class="btn">كورسات شبكات</a>
+      </p>
+      </div>
+      <div class="btn1">
+      <p>
+        <img class="img1" src="./img/m6.png">
+        <a  href="#"class="btn">كورسات شبكات</a>
+      </p>
+      </div>
+     </div>
+    </div>
+    <button class="btnn">سجل الآن</button>
+  </section>
   
-  <script src="./logger.js">
+  <div id="nava_getior">
+    <img class="na" src="./img/ico/na.png">
     
-  </script>
+    <h2>اشعار جديد</h2>
+    <p id="pp">اهلا وسهلا بك عزيزيا</p>
+  </div>
+  <footer>
+    <p>
+      By :@Fawaz- <span>Alhassani</span> - 2025-2029
+    </p>
+    <div class="soch" >
+      <a href="#" class="so1">
+         <img class="so1" src="./img/ico/m1.png">
+      </a>
+      <a href="#" class="so1">
+         <img class="so1" src="./img/ico/m2.png">
+      </a>
+      <a href="#" class="so1">
+        <img class="so1" src="./img/ico/m3.png">
+      </a>
+    <a href="#" class="so1">
+        <img class="so1" src="./img/ico/m4.png">
+      </a>
+    </div>
+  </footer>
 </body>
 </html>
